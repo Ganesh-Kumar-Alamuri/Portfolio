@@ -138,7 +138,7 @@ const LeetcodeSection = () => {
                      <div className="flex justify-center pt-4">
                         <Button asChild>
                            <a
-                              href="https://leetcode.com/username"
+                              href="https://leetcode.com/u/alamuriganeshkumar"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="flex items-center gap-2"
