@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { CircleCheck, Trophy, Code, Timer, ExternalLink } from "lucide-react";
+import { CircleCheck, Trophy, Code, ExternalLink } from "lucide-react";
 
 const LeetcodeSection = () => {
    const sectionRef = useRef<HTMLElement>(null);
