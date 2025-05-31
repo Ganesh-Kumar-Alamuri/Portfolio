@@ -42,24 +42,24 @@ const projects: Project[] = [
       liveLink: "",
       deployment: "Render",
    },
-   {
-      id: 3,
-      title: "AI-Powered Dating Bio Generator",
-      description:
-         "An AI-powered dating profile generator that helps users create witty and personalized bios using Google's Gemini models. Built with a modern React (Vite) frontend and Express backend.",
-      techStack: [
-         "React (Vite)",
-         "Material UI",
-         "Node.js",
-         "Express",
-         "Gemini API",
-         "Axios",
-         "dotenv",
-      ],
-      link: "https://github.com/Ganesh-Kumar-Alamuri/DatingSite",
-      liveLink: "https://dinder-app-gjpv.onrender.com",
-      deployment: "Render",
-   },
+   // {
+   //    id: 3,
+   //    title: "AI-Powered Dating Bio Generator",
+   //    description:
+   //       "An AI-powered dating profile generator that helps users create witty and personalized bios using Google's Gemini models. Built with a modern React (Vite) frontend and Express backend.",
+   //    techStack: [
+   //       "React (Vite)",
+   //       "Material UI",
+   //       "Node.js",
+   //       "Express",
+   //       "Gemini API",
+   //       "Axios",
+   //       "dotenv",
+   //    ],
+   //    link: "https://github.com/Ganesh-Kumar-Alamuri/DatingSite",
+   //    liveLink: "https://dinder-app-gjpv.onrender.com",
+   //    deployment: "Render",
+   // },
 ];
 
 const ProjectsSection = () => {
