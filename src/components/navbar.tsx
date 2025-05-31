@@ -5,12 +5,14 @@ import { Sun, Moon, Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
-  { href: '#home', label: 'Home' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#learning', label: 'Learning' },
-  { href: '#leetcode', label: 'LeetCode' },
-  { href: '#contact', label: 'Contact' },
+   { href: "#home", label: "Home" },
+   { href: "#projects", label: "Projects" },
+   { href: "#achievements", label: "Achievements" },
+   { href: "#skills", label: "Skills" },
+   { href: "#learning", label: "Learning" },
+
+   { href: "#leetcode", label: "LeetCode" },
+   { href: "#contact", label: "Contact" },
 ];
 
 interface NavbarProps {
