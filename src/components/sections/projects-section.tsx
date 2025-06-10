@@ -60,6 +60,16 @@ const projects: Project[] = [
    //    liveLink: "https://dinder-app-gjpv.onrender.com",
    //    deployment: "Render",
    // },
+   {
+  "id": 4,
+  "title": "Real-time Chat App",
+  "description": "A full-stack real-time chat application with user authentication, image compression, and socket-based messaging built using React, Express, and Socket.IO.",
+  "techStack": ["React", "Vite", "Tailwind CSS", "Express", "Socket.IO", "MongoDB", "Zustand", "Cloudinary"],
+  "link": "https://github.com/Ganesh-Kumar-Alamuri/ChatApp",
+  "liveLink": "https://chatapp-ul8v.onrender.com/",
+  "deployment": "Render"
+}
+
 ];
 
 const ProjectsSection = () => {
