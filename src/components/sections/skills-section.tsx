@@ -18,12 +18,15 @@ const skills: Skill[] = [
 
    // Frontend
    { name: "React.js", type: "Frontend", proficiency: "Expert" },
+   { name: "Next.js", type: "Frontend", proficiency: "Intermediate" },
    { name: "Redux Toolkit", type: "Frontend", proficiency: "Proficient" },
+   { name: "Zustand", type: "Frontend", proficiency: "Proficient" },
    { name: "Tailwind CSS", type: "Frontend", proficiency: "Expert" },
    { name: "Material UI", type: "Frontend", proficiency: "Proficient" },
    { name: "Daisy UI", type: "Frontend", proficiency: "Proficient" },
    { name: "Shadcn/ui", type: "Frontend", proficiency: "Proficient" },
    { name: "React Router", type: "Frontend", proficiency: "Proficient" },
+   { name: "Socket.IO", type: "Frontend", proficiency: "Intermediate" },
 
    // Backend
    { name: "Node.js", type: "Backend", proficiency: "Proficient" },

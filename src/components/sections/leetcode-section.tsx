@@ -45,7 +45,7 @@ const LeetcodeSection = () => {
          <div className="container px-4 md:px-6 mx-auto">
             <div className="mb-12 text-center">
                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
-                  LeetCode Journey
+                  DSA Journey
                </h2>
                <p className="mt-4 text-muted-foreground max-w-3xl mx-auto">
                   My competitive programming stats and achievements.
