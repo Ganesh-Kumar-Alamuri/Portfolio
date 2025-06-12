@@ -43,7 +43,7 @@ const ReferralPopup = () => {
                I'm currently exploring new roles. If you know of any openings,
                please check my{" "}
                <a
-                  href="https://drive.google.com/file/d/14KGwNt03fUZhBq9w6woWd9eXiaEeN9Ki/view?usp=drive_link"
+                  href="https://tinyurl.com/agk-resume"
                   className="text-blue-600 hover:underline font-medium"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const ReferralPopup = () => {
             <div className="flex flex-col md:flex-row gap-4 w-full justify-between ">
                {/* Online URL Button */}
                <a
-                  href="https://drive.google.com/file/d/14KGwNt03fUZhBq9w6woWd9eXiaEeN9Ki/view?usp=drive_link"
+                  href="https://tinyurl.com/agk-resume"
                   className="flex items-center justify-center gap-2 w-full md:w-[48%] bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                   target="_blank"
                   rel="noopener noreferrer"
