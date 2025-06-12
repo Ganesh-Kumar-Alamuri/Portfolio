@@ -36,10 +36,10 @@ const projects: Project[] = [
       id: 2,
       title: "The Placement Park",
       description:
-         "A comprehensive CRM & ATS solution for placement departments. Manages student profiles, job listings, and application tracking.",
+         "A comprehensive CRM & ATS solution for placement departments. Manages student profiles, job listings, and application tracking.(Application holds confidential information, you will need credentials!)",
       techStack: ["React", "Node.js", "Express", "MongoDB", "Redux"],
       link: "https://github.com/Ganesh-Kumar-Alamuri/the-placement-park",
-      liveLink: "",
+      liveLink: "https://tpp-2-0.onrender.com/",
       deployment: "Render",
    },
    // {
