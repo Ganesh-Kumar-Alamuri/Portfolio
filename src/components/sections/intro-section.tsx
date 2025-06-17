@@ -6,16 +6,12 @@ const ReferralPopup = () => {
    const { theme } = useTheme();
 
    useEffect(() => {
-      const hasSeenPopup = localStorage.getItem("referralPopupShown");
+      const timer = setTimeout(() => {
+         setVisible(true);
+         localStorage.setItem("referralPopupShown", "true");
+      }, 10000); // 10 seconds
 
-      if (!hasSeenPopup) {
-         const timer = setTimeout(() => {
-            setVisible(true);
-            localStorage.setItem("referralPopupShown", "true");
-         }, 5000); // 10 seconds
-
-         return () => clearTimeout(timer); // Cleanup
-      }
+      return () => clearTimeout(timer); // Cleanup
    }, []);
 
    if (!visible) return null;
@@ -69,7 +65,7 @@ const ReferralPopup = () => {
 
                {/* Download Button */}
                <a
-                  href="Ganesh Kumar Alamuri Resume.pdf"
+                  href="/Ganesh Kumar Alamuri Resume.pdf"
                   className="flex items-center justify-center gap-2 w-full md:w-[48%] bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                   download="Ganesh Kumar Alamuri Resume.pdf"
                   onClick={() => setVisible(false)}

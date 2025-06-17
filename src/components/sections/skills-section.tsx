@@ -13,6 +13,7 @@ const skills: Skill[] = [
    // Languages
    { name: "JavaScript", type: "Language", proficiency: "Proficient" },
    { name: "TypeScript", type: "Language", proficiency: "Proficient" },
+   { name: "Core Java", type: "Language", proficiency: "Proficient" },
    { name: "Python", type: "Language", proficiency: "Proficient" },
    { name: "C/C++", type: "Language", proficiency: "Intermediate" },
 
