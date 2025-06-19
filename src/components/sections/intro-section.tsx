@@ -9,7 +9,7 @@ const ReferralPopup = () => {
       const timer = setTimeout(() => {
          setVisible(true);
          localStorage.setItem("referralPopupShown", "true");
-      }, 10000); // 10 seconds
+      }, 5000);
 
       return () => clearTimeout(timer); // Cleanup
    }, []);
