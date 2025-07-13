@@ -9,8 +9,7 @@ interface LearningSkill {
 }
 
 const learningSkills: LearningSkill[] = [
-   { name: "PostgreSQL", type: "Database" },
-   { name: "Java Spring Boot", type: "Backend" },
+   { name: "Java MicroServices", type: "Backend" },
    { name: "React Testing Library", type: "Testing" },
 ];
 

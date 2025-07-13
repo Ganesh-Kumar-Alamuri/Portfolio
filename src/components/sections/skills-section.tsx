@@ -29,14 +29,23 @@ const skills: Skill[] = [
    { name: "React Router", type: "Frontend", proficiency: "Proficient" },
    { name: "Socket.IO", type: "Frontend", proficiency: "Intermediate" },
 
-   // Backend
+   // Backend (Node + Java Spring)
    { name: "Node.js", type: "Backend", proficiency: "Proficient" },
    { name: "Express.js", type: "Backend", proficiency: "Proficient" },
-   { name: "Prisma", type: "Backend", proficiency: "Intermediate" },
+   { name: "Spring Framework", type: "Backend", proficiency: "Proficient" },
+   { name: "Spring Boot", type: "Backend", proficiency: "Proficient" },
+   { name: "Spring Security", type: "Backend", proficiency: "Proficient" },
+   { name: "Spring AOP", type: "Backend", proficiency: "Intermediate" },
+   { name: "Spring Data JPA", type: "Backend", proficiency: "Proficient" },
+   { name: "Spring MVC", type: "Backend", proficiency: "Proficient" },
+   { name: "JWT & OAuth2", type: "Backend", proficiency: "Proficient" },
+   { name: "Microservices", type: "Backend", proficiency: "Intermediate" },
 
    // Database
    { name: "MongoDB", type: "Database", proficiency: "Proficient" },
    { name: "MySQL", type: "Database", proficiency: "Proficient" },
+   { name: "JDBC", type: "Database", proficiency: "Proficient" },
+   { name: "PostgreSQL", type: "Database", proficiency: "Proficient" },
 
    // Tools
    { name: "Git", type: "Tool", proficiency: "Proficient" },
@@ -44,7 +53,9 @@ const skills: Skill[] = [
    { name: "Vercel", type: "Tool", proficiency: "Proficient" },
    { name: "Render", type: "Tool", proficiency: "Intermediate" },
    { name: "Jest", type: "Tool", proficiency: "Beginner" },
-   //  { name: "Agile", type: "Tool", proficiency: "Proficient" },
+   { name: "Docker", type: "Tool", proficiency: "Intermediate" },
+   // { name: "Maven", type: "Tool", proficiency: "Proficient" },
+   // { name: "Cloud Deployment", type: "Tool", proficiency: "Intermediate" },
 ];
 
 const getTypeColor = (type: Skill["type"]) => {

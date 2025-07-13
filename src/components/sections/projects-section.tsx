@@ -111,9 +111,22 @@ const ProjectsSection = () => {
       <section
          id="projects"
          ref={sectionRef}
-         className="py-20 md:py-24 relative"
+         className={
+            "py-20 md:py-24 relative w-full min-h-screen flex flex-col justify-center items-center overflow-hidden transition-colors duration-300 bg-gradient-to-b " +
+            (document.documentElement.classList.contains('dark')
+               ? "from-gray-900 via-gray-950 to-black text-white"
+               : "from-sky-100 via-yellow-100 to-white text-sky-900")
+         }
       >
-         <div className="container px-4 md:px-6 mx-auto">
+         <div
+            className={
+               "absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] transition-colors duration-300" +
+               (document.documentElement.classList.contains('dark')
+                  ? " from-gray-900 via-gray-950 to-black opacity-90"
+                  : " from-sky-100 via-yellow-100 to-white opacity-90")
+            }
+         />
+         <div className="container px-4 md:px-6 mx-auto relative z-10">
             <div className="mb-12 text-center">
                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                   Projects
@@ -123,7 +136,6 @@ const ProjectsSection = () => {
                   expertise.
                </p>
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                {projects.map((project, index) => (
                   <Card
@@ -131,8 +143,6 @@ const ProjectsSection = () => {
                      className={`overflow-hidden transition-all duration-700 transform ${
                         isVisible
                            ? "translate-y-0 opacity-100"
-                           : index % 2 === 0
-                           ? "translate-y-20 opacity-0"
                            : "translate-y-20 opacity-0"
                      } delay-${index * 150}`}
                   >

@@ -70,7 +70,7 @@ const LeetcodeSection = () => {
                      </CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-6">
-                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="flex flex-col items-center p-4 rounded-lg bg-card/60">
                            <Badge variant="outline" className="mb-2 px-3">
                               Max-Rating
@@ -87,14 +87,14 @@ const LeetcodeSection = () => {
                            <span className="text-3xl font-bold">250+</span>
                         </div>
 
-                        <div className="flex flex-col items-center p-4 rounded-lg bg-card/60">
+                        {/* <div className="flex flex-col items-center p-4 rounded-lg bg-card/60">
                            <Badge variant="outline" className="mb-2 px-3">
                               Streak
                            </Badge>
                            <span className="text-3xl font-bold text-green-500">
                               30+ days
                            </span>
-                        </div>
+                        </div> */}
                      </div>
 
                      <div className="space-y-2">
