@@ -17,7 +17,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Phone, Github, Linkedin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import emailjs from "@emailjs/browser";
-import { log } from "console";
+
 
 const formSchema = z.object({
    name: z.string().min(2, { message: "Name must be at least 2 characters." }),
