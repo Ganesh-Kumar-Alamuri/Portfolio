@@ -249,7 +249,7 @@ const HeroSection = () => {
                         </a>
                      </Button>
                      <Button size="icon" variant="outline" asChild className={theme === "dark" ? "border-gray-700" : "bg-sky-100 border-sky-300 hover:bg-sky-200"}>
-                        <a href="https://tinyurl.com/agk-resume" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+                        <a href="https://drive.google.com/file/d/1lhD9Of3jaKW3s9vqOjrbhIFN-npNSl4h" target="_blank" rel="noopener noreferrer" aria-label="Resume">
                            <FileUser className={theme === "dark" ? "text-white" : "text-sky-700"} />
                         </a>
                      </Button>
