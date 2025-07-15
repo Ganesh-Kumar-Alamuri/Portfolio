@@ -39,7 +39,7 @@ const ReferralPopup = () => {
                I'm currently exploring new roles. If you know of any openings,
                please check my{" "}
                <a
-                  href="https://drive.google.com/file/d/1lhD9Of3jaKW3s9vqOjrbhIFN-npNSl4h"
+                  href="https://drive.google.com/file/d/1dqEGqV13c787O7VHecWQMA1JyaMgsv3x/view?usp=sharing"
                   className="text-blue-600 hover:underline font-medium"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const ReferralPopup = () => {
             <div className="flex flex-col md:flex-row gap-4 w-full justify-between ">
                {/* Online URL Button */}
                <a
-                  href="https://drive.google.com/file/d/1lhD9Of3jaKW3s9vqOjrbhIFN-npNSl4h"
+                  href="https://drive.google.com/file/d/1dqEGqV13c787O7VHecWQMA1JyaMgsv3x/view?usp=sharing"
                   className="flex items-center justify-center gap-2 w-full md:w-[48%] bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -65,9 +65,9 @@ const ReferralPopup = () => {
 
                {/* Download Button */}
                <a
-                  href="/AGK's Resume.pdf"
+                  href="/Ganesh Kumar Resume.pdf"
                   className="flex items-center justify-center gap-2 w-full md:w-[48%] bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-                  download="AGK's Resume.pdf"
+                  download="Ganesh Kumar Resume.pdf"
                   onClick={() => setVisible(false)}
                >
                   <ArrowDownToLine className="w-5 h-5 sm:w-4 sm:h-4" />
